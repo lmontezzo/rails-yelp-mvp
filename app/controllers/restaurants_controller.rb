@@ -1,4 +1,5 @@
 class RestaurantsController < ApplicationController
+  has_many :reviews, dependent: :destroy
   def index
   end
 
