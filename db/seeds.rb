@@ -35,27 +35,27 @@
 # puts 'Finished'
 
 
-puts 'Cleaning database...'
-Review.destroy_all
+# puts 'Cleaning database...'
+# Review.destroy_all
 
-puts 'Creating reviews...'
-reviews_attributes = [
-  {
-    content:         "Very good!",
-    rating:      4,
-    restaurant_id:  1
-  },
-  {
-    content:         "Nice",
-    rating:      5,
-    restaurant_id:  2
-  },
-  {
-    content:         "Shiiiiit!",
-    rating:      1,
-    restaurant_id:  3
-  }
-]
+# puts 'Creating reviews...'
+# reviews_attributes = [
+#   {
+#     content:         "Very good!",
+#     rating:      4,
+#     restaurant_id:  1
+#   },
+#   {
+#     content:         "Nice",
+#     rating:      5,
+#     restaurant_id:  2
+#   },
+#   {
+#     content:         "Shiiiiit!",
+#     rating:      1,
+#     restaurant_id:  3
+#   }
+# ]
 
-Review.create!(reviews_attributes)
-puts 'Finished'
+# Review.create!(reviews_attributes)
+# puts 'Finished'
